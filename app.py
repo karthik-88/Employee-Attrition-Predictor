@@ -26,7 +26,7 @@ with st.form("attrition_form"):
     job_satisfaction = st.slider("Job Satisfaction (1–4)", 1, 4, 3)
     years_at_company = st.slider("Years at Company", 0, 40, 5)
     distance_from_home = st.slider("Distance from Home (km)", 1, 30, 10)
-    monthly_income = st.number_input("Monthly Income", min_value=20000, max_value=200000, value=5000)
+    monthly_income = st.number_input("Monthly Income", min_value=20000, max_value=200000, value=45000)
 
     submitted = st.form_submit_button("Predict Attrition")
 
